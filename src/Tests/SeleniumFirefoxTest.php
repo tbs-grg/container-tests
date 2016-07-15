@@ -11,7 +11,7 @@ class SeleniumFirefoxTest extends PHPUnit_Extensions_Selenium2TestCase
     public function testTitle()
     {
         $this->url('http://www.google.com/');
-        $this->assertEquals('Google', $this->title());
+        $this->assertContains('Google', $this->title());
     }
 
 }
