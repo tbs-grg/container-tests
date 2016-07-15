@@ -1,5 +1,5 @@
 {
-    "name": "scrutinizer/selenium-tests",
+    "name": "scrutinizer/container-tests",
     "type": "project",
     "require": {
         "phpunit/phpunit": "^4.8",
